@@ -30,7 +30,7 @@ describe('large file', () => {
     pull(
       pullFile(tmpfile),
       pull.collect((_, items) => {
-        expect(hash(big)).toBe(hash(Buffer.concat(items)))
+        expect(hash(big)).toBe(hash(Buffer.concat(items as Buffer[])))
         done()
       })
     )

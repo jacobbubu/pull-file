@@ -45,7 +45,7 @@ describe('partial', () => {
         pull(
           pullFile(file, opts),
           pull.collect(function(_, ary) {
-            const actual = Buffer.concat(ary)
+            const actual = Buffer.concat(ary as Buffer[])
             expect(actual.length).toBe(expected.length)
             expect(hash(actual)).toBe(hash(expected))
             resolve()
