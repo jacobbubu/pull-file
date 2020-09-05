@@ -1,5 +1,5 @@
 import * as path from 'path'
-import { pull } from 'pull-stream'
+import * as pull from 'pull-stream'
 import pullFile from '../src'
 
 const inputFile = path.resolve(__dirname, '../test/assets/ipsum.txt')
