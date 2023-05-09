@@ -95,7 +95,7 @@
     "jest": "^26.4.2",
     "lint-staged": "^10.0.7",
     "lodash.camelcase": "^4.3.0",
-    "npm-name": "^5.5.0",
+    "npm-name": "^7.1.0",
     "osenv": "^0.1.5",
     "prettier": "^1.19.1",
     "prompt": "^1.0.0",
